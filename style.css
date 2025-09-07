@@ -1,15 +1,15 @@
-:root{
-  /* Azul bebê */
-  --primary-color:#3e7ecb;
-  --primary-dark:#2d66ab;
-  --secondary-color:#5ec2ff;
-  --accent-color:#25d366; /* WhatsApp */
-  --text-dark:#0f2740;
-  --text-light:#4f6a86;
-  --background:#ffffff;
-  --surface:#eaf4ff;
-  --border:#d6e6fb;
+:root {
+  --primary-color: #7ec8e3;   /* Azul bebê principal */
+  --primary-dark: #4a90a4;    /* Azul mais escuro para contraste */
+  --secondary-color: #a8d8f0; /* Azul ainda mais claro */
+  --accent-color: #56b6d6;    /* Azul médio para botões */
+  --text-dark: #1f2937;       /* Cinza escuro para textos */
+  --text-light: #6b7280;      /* Cinza claro para secundário */
+  --background: #ffffff;      /* Fundo branco */
+  --surface: #f1f9fd;         /* Fundo com tom azulado bem sutil */
+  --border: #d6e9f5;          /* Bordas em azul bem claro */
 }
+
 
 /* Base */
 *{box-sizing:border-box}
