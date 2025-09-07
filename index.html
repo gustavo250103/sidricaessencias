@@ -1,173 +1,208 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sidrica Essências • Saboaria artesanal</title>
-  <meta name="description" content="Saboaria artesanal: história, linhas de produtos e destaques. Encomendas pelo WhatsApp e perfil no Instagram." />
-  <meta name="theme-color" content="#cfe7ff" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sidrica Essências – saboaria artesanal: história, linhas e produtos em destaque. Fale no WhatsApp e acompanhe no Instagram." />
+  <meta name="keywords" content="saboaria artesanal, sabonetes, aromatizadores, lavanda, fitoterápicos, bem-estar, Sidrica Essências" />
+  <title>Sidrica Essências</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- ====== HEADER (sem menu) ====== -->
-  <header>
-    <div class="container">
-      <div class="brand-wrap">
-        <div class="brand">
-          <img src="assets/logo.png" alt="Sidrica Essências" />
-        </div>
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav-container">
+      <div class="logo">
+        <i class="fas fa-leaf"></i>
+        Sidrica Essências
       </div>
-    </div>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#inicio" class="nav-link">Início</a></li>
+        <li><a href="#historia" class="nav-link">História</a></li>
+        <li><a href="#linhas" class="nav-link">Linhas</a></li>
+        <li><a href="#produtos" class="nav-link">Produtos</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+
+      <a class="cta-button"
+         href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Vim%20do%20site%20Sidrica%20Ess%C3%AAncias.">
+        WhatsApp
+      </a>
+
+      <button class="mobile-menu-btn" id="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+    </nav>
   </header>
 
-  <!-- ====== HERO ====== -->
-  <section class="hero paper">
-    <div class="container intro">
-      <h1>Sidrica Essência</h1>
-      <p class="lead">Saboaria artesanal feita com cuidado, beleza e bem-estar — em tons de azul bebê.</p>
-    </div>
-  </section>
-
-  <!-- ====== HISTÓRIA ====== -->
-  <section class="section container" id="historia">
-    <h2>🌿 História da Marca</h2>
-    <p>A Sidrica Essência nasceu da paixão de <strong>Simone de Oliveira</strong> pela arte da saboaria artesanal. Sua jornada começou com curiosidade e experimentação, mas logo se transformou em propósito: criar produtos que unissem cuidado, beleza e bem-estar, sempre com matéria-prima de primeira qualidade.</p>
-    <p>Simone aprimorou seu conhecimento com grandes nomes do setor, como <strong>Peter Paiva</strong> e sua equipe na Mega Artesanal, além de diversas formações especializadas que consolidaram sua técnica e criatividade.</p>
-    <p>Cada sabonete e aromatizador da Sidrica Essência carrega dedicação, estudo e arte. Com criações exclusivas como o famoso <strong>sabonete Brisa do Mar</strong> e peças que reproduzem frutas reais com aroma idêntico ao natural, a marca se tornou referência em originalidade e qualidade.</p>
-    <p>Mais do que produtos, a Sidrica Essência entrega experiências sensoriais, transformando o simples ato de cuidar-se em um momento de prazer e conexão.</p>
-  </section>
-
-  <!-- ====== LINHAS ====== -->
-  <section class="section container" id="linhas">
-    <h2>🌸 Linhas de Produtos</h2>
-    <ul class="list">
-      <li><strong>Aromatizadores de Ambiente</strong> — perfumes delicados que transformam o clima da sua casa, trazendo frescor e aconchego.</li>
-      <li><strong>Sabonetes Líquidos</strong> — práticos, suaves e perfumados, ideais para uso diário com toque de hidratação.</li>
-      <li><strong>Sabonetes Fitoterápicos</strong> — com alecrim, lavanda, calêndula, erva-doce, capim-limão, sal grosso e aveia com mel, cada um com propriedades únicas.</li>
-      <li><strong>Sachês para Gavetas</strong> — perfumam roupas e ambientes de forma discreta e duradoura.</li>
-      <li><strong>Escalda-pés</strong> — relaxa, alivia o cansaço e renova as energias.</li>
-    </ul>
-    <p>Cada linha é pensada para funcionalidade, saúde e sofisticação, mantendo o padrão artesanal que diferencia a Sidrica Essência.</p>
-  </section>
-
-  <!-- ====== PRODUTOS EM DESTAQUE ====== -->
-  <section class="section container" id="produtos">
-    <h2>🌟 Produtos em Destaque</h2>
-    <div class="grid">
-
-      <!-- 1. Brisa do Mar -->
-      <article class="card">
-        <img src="assets/brisa-do-mar.jpg" alt="Sabonete Brisa do Mar" />
-        <div class="caption">
-          <strong>Brisa do Mar</strong>
-          <p>Exclusivo da marca, inspirado na leveza e frescor do oceano. Fragrância revigorante com toque hidratante.</p>
-          <a class="buy" data-prod="Brisa do Mar"
-             href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Tenho%20interesse%20no%20sabonete%20Brisa%20do%20Mar.">Comprar no WhatsApp</a>
-        </div>
-      </article>
-
-      <!-- 2. Sabonete de Lavanda -->
-      <article class="card">
-        <img src="assets/lavanda.jpg" alt="Sabonete de Lavanda" />
-        <div class="caption">
-          <strong>Sabonete de Lavanda</strong>
-          <p>Clássico da saboaria artesanal, propriedades calmantes e aroma delicado para momentos de relaxamento.</p>
-          <a class="buy" data-prod="Sabonete de Lavanda"
-             href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Sabonete%20de%20Lavanda.">Comprar no WhatsApp</a>
-        </div>
-      </article>
-
-      <!-- 3. Bom Ar Lavanda -->
-      <article class="card">
-        <img src="assets/bomar-lavanda.jpg" alt="Aromatizador Bom Ar Lavanda" />
-        <div class="caption">
-          <strong>Bom Ar Lavanda</strong>
-          <p>Aromatizador de ambientes com fragrância marcante e relaxante. Perfeito para quartos e espaços de descanso.</p>
-          <a class="buy" data-prod="Bom Ar Lavanda"
-             href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Aromatizador%20Bom%20Ar%20Lavanda.">Comprar no WhatsApp</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ====== INSTAGRAM (perfil) ====== -->
-  <section class="insta-wrap" aria-label="Instagram">
-    <div class="insta-card container">
-      <div class="insta-head">
-        <div class="avatar"><img src="assets/avatar.jpg" alt="avatar do Instagram"/></div>
-        <div class="name" id="insta-handle">@gustavo_.diaz</div>
-      </div>
-      <div class="insta-grid">
-        <a class="ph" target="_blank" rel="noopener" href="https://instagram.com/gustavo_.diaz"><img src="assets/insta-1.jpg" alt="post 1"/></a>
-        <a class="ph" target="_blank" rel="noopener" href="https://instagram.com/gustavo_.diaz"><img src="assets/insta-2.jpg" alt="post 2"/></a>
-        <a class="ph" target="_blank" rel="noopener" href="https://instagram.com/gustavo_.diaz"><img src="assets/insta-3.jpg" alt="post 3"/></a>
-        <a class="ph" target="_blank" rel="noopener" href="https://instagram.com/gustavo_.diaz"><img src="assets/insta-4.jpg" alt="post 4"/></a>
-      </div>
-      <div class="insta-follow">
-        <a id="btn-insta" class="follow-btn" target="_blank" rel="noopener"
-           href="https://instagram.com/gustavo_.diaz">📷 Seguir no Instagram</a>
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-container">
+      <h1>Saboaria artesanal com alma</h1>
+      <p>Criações únicas que unem cuidado, beleza e bem-estar — feitas à mão por Simone de Oliveira. Conheça nossa história, linhas e produtos em destaque.</p>
+      <div class="hero-buttons">
+        <a href="#linhas" class="btn-primary"><i class="fas fa-seedling"></i> Ver linhas</a>
+        <a href="https://instagram.com/gustavo_.diaz" class="btn-secondary" target="_blank" rel="noopener">Instagram</a>
       </div>
     </div>
   </section>
 
-  <!-- ====== FOOTER INSTITUCIONAL ====== -->
-  <footer>
-    <div class="container foot">
-      <!-- coluna identidade visual -->
-      <div>
-        <div class="foot-brand">
-          <img class="foot-logo" src="assets/logo-mini.png" alt="Sidrica Essências" />
-          <h3 class="foot-title">Sidrica Essências</h3>
-        </div>
-        <p class="muted">Saboaria artesanal com identidade visual própria — produtos naturais e experiências sensoriais.</p>
-      </div>
+  <!-- HISTÓRIA -->
+  <section class="stats-section" id="historia">
+    <div class="stats-container">
+      <h2 class="section-title">História da Marca</h2>
+      <p class="section-subtitle">Da curiosidade ao propósito: a jornada da Sidrica Essência</p>
 
-      <!-- coluna navegação âncoras da página -->
-      <div>
-        <h4>Projeto</h4>
-        <ul class="foot-list">
-          <li><a href="#historia">História</a></li>
-          <li><a href="#linhas">Linhas</a></li>
-          <li><a href="#produtos">Produtos em Destaque</a></li>
-          <li><a href="https://instagram.com/gustavo_.diaz" target="_blank" rel="noopener">Instagram</a></li>
-        </ul>
-      </div>
-
-      <!-- coluna contato -->
-      <div>
-        <h4>Contato</h4>
-        <ul class="foot-list">
-          <li><a href="mailto:contato@sidricaessencias.com">contato@sidricaessencias.com</a></li>
-          <li><a href="tel:+5511945414667">+55 11 94541-4667</a></li>
-          <li class="social-row">
-            <a class="social-btn" id="foot-wa"
-               href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Vim%20do%20site%20Sidrica%20Ess%C3%AAncias.">
-              <img src="assets/whatsapp.png" onerror="this.outerHTML='🟢'" alt="WhatsApp" />
-              WhatsApp
-            </a>
-            <a class="social-btn" id="foot-ig" href="https://instagram.com/gustavo_.diaz" target="_blank" rel="noopener">
-              <img src="assets/instagram.png" onerror="this.outerHTML='📷'" alt="Instagram" />
-              Instagram
-            </a>
-          </li>
-        </ul>
+      <div class="text-block">
+        <p>A Sidrica Essência nasceu da paixão de <strong>Simone de Oliveira</strong> pela arte da saboaria artesanal. Sua jornada começou com curiosidade e experimentação, mas logo se transformou em propósito: criar produtos que unissem cuidado, beleza e bem-estar, sempre com matéria-prima de primeira qualidade.</p>
+        <p>Simone aprimorou seu conhecimento com grandes nomes do setor, como <strong>Peter Paiva</strong> e sua equipe na Mega Artesanal, além de diversas formações especializadas que consolidaram sua técnica e criatividade.</p>
+        <p>Cada sabonete e aromatizador da Sidrica Essência carrega dedicação, estudo e arte. Com criações exclusivas como o famoso <strong>Brisa do Mar</strong> e peças que reproduzem frutas reais com aroma idêntico ao natural, a marca se tornou referência em originalidade e qualidade.</p>
+        <p>Mais do que produtos, a Sidrica Essência entrega <strong>experiências sensoriais</strong>, transformando o simples ato de cuidar-se em um momento de prazer e conexão.</p>
       </div>
     </div>
+  </section>
 
-    <div class="foot-bar">
-      <div class="container">
-        © <span id="ano"></span> — Sidrica Essências. Site institucional.
+  <!-- LINHAS -->
+  <section class="features-section" id="linhas">
+    <div class="features-container">
+      <h2 class="section-title">Linhas de Produtos</h2>
+      <p class="section-subtitle">Bem-estar, sofisticação e natureza</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-wind"></i></div>
+          <h3 class="feature-title">Aromatizadores de Ambiente</h3>
+          <p class="feature-description">Perfumes delicados que transformam o clima da sua casa, trazendo frescor e aconchego.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-soap"></i></div>
+          <h3 class="feature-title">Sabonetes Líquidos</h3>
+          <p class="feature-description">Práticos, suaves e perfumados, ideais para uso diário com toque de hidratação.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+          <h3 class="feature-title">Sabonetes Fitoterápicos</h3>
+          <p class="feature-description">Com alecrim, lavanda, calêndula, erva-doce, capim-limão, sal grosso e aveia com mel — cada um com propriedades únicas.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-draw-polygon"></i></div>
+          <h3 class="feature-title">Sachês para Gavetas</h3>
+          <p class="feature-description">Perfumam roupas e ambientes de forma discreta e duradoura.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shoe-prints"></i></div>
+          <h3 class="feature-title">Escalda-pés</h3>
+          <p class="feature-description">Uma experiência relaxante que alivia o cansaço e renova as energias.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS EM DESTAQUE -->
+  <section class="tech-section" id="produtos">
+    <div class="tech-container">
+      <h2 class="section-title">Produtos em Destaque</h2>
+      <p class="section-subtitle">Seleção que representa nossa essência</p>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>1. Brisa do Mar</h3>
+          <ul class="tech-list">
+            <li>Exclusivo da marca, inspirado na leveza e frescor do oceano.</li>
+            <li>Fragrância que transmite liberdade e bem-estar.</li>
+            <li>Fórmula que hidrata e cuida da pele.</li>
+          </ul>
+          <p style="margin-top:1rem">
+            <a class="btn-primary" href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Tenho%20interesse%20no%20sabonete%20Brisa%20do%20Mar."><i class="fab fa-whatsapp"></i> Comprar no WhatsApp</a>
+          </p>
+        </div>
+
+        <div class="tech-card">
+          <h3>2. Sabonete de Lavanda</h3>
+          <ul class="tech-list">
+            <li>Clássico da saboaria artesanal com aroma delicado.</li>
+            <li>Propriedades calmantes para momentos de relaxamento.</li>
+          </ul>
+          <p style="margin-top:1rem">
+            <a class="btn-primary" href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Sabonete%20de%20Lavanda."><i class="fab fa-whatsapp"></i> Comprar no WhatsApp</a>
+          </p>
+        </div>
+
+        <div class="tech-card">
+          <h3>3. Bom Ar Lavanda</h3>
+          <ul class="tech-list">
+            <li>Aromatizador que cria uma atmosfera de tranquilidade.</li>
+            <li>Perfeito para quartos, salas e espaços de descanso.</li>
+          </ul>
+          <p style="margin-top:1rem">
+            <a class="btn-primary" href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Tenho%20interesse%20no%20Aromatizador%20Bom%20Ar%20Lavanda."><i class="fab fa-whatsapp"></i> Comprar no WhatsApp</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTATO -->
+  <section class="cta-section" id="contato">
+    <div class="cta-container">
+      <h2>Fale com a Sidrica Essência</h2>
+      <p>Quer presentear alguém ou ter um cantinho perfumado? Chame no WhatsApp ou acompanhe nosso Instagram.</p>
+
+      <div class="hero-buttons">
+        <a href="https://instagram.com/gustavo_.diaz" class="btn-primary" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i> Ver no Instagram
+        </a>
+        <a href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Vim%20do%20site%20Sidrica%20Ess%C3%AAncias." class="btn-secondary">
+          <i class="fab fa-whatsapp"></i> Conversar no WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3><i class="fas fa-leaf"></i> Sidrica Essências</h3>
+          <p>Saboaria artesanal com identidade, cuidado e bem-estar.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Site</h3>
+          <ul class="footer-links">
+            <li><a href="#historia">História</a></li>
+            <li><a href="#linhas">Linhas</a></li>
+            <li><a href="#produtos">Produtos em Destaque</a></li>
+            <li><a href="https://instagram.com/gustavo_.diaz" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Vim%20do%20site%20Sidrica%20Ess%C3%AAncias.">WhatsApp</a></li>
+            <li><a href="https://instagram.com/gustavo_.diaz" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="ano"></span> Sidrica Essências — site institucional.</p>
       </div>
     </div>
   </footer>
 
-  <!-- Botão flutuante do WhatsApp -->
-  <a id="zap-float" class="zap-float"
-     href="https://wa.me/5511945414667?text=Ol%C3%A1!%20Vim%20do%20site%20Sidrica%20Ess%C3%AAncias."
-     aria-label="Conversar no WhatsApp">✆</a>
-
+  <!-- Scripts -->
   <script src="app.js" defer></script>
 </body>
 </html>
